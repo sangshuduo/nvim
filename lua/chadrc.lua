@@ -7,11 +7,19 @@ local M = {}
 
 M.base46 = {
 	theme = "onedark",
+  transparent = true,
+  theme_toggle = {"onedark", "one_light"},
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },
 	-- },
+}
+
+M.ui = {
+  statusline = {
+    theme = "vscode_colored",
+  }
 }
 
 return M
