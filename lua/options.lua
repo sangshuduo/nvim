@@ -28,5 +28,10 @@ vim.cmd "let g:floaterm_keymap_next   = '<F11>'"
 vim.cmd "let g:floaterm_keymap_toggle = '<F12>'"
 vim.cmd "let g:rainbow_active = 1"
 
+vim.cmd [[
+  highlight Normal guibg=NONE ctermbg=NONE
+  highlight NonText guibg=NONE ctermbg=NONE
+]]
+
 -- local o = vim.o
 -- o.cursorlineopt ='both' -- to enable cursorline!
